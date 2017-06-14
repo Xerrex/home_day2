@@ -9,11 +9,7 @@ def words(word):
     print("\n\nworld list after splitting ", wordlist,"\n\n")
 
     for i_word in wordlist:
-        if type(i_word)== int:
-            wordcount[int(i_word)] = word.count(i_word)
-        else:
-            wordcount[i_word]=word.count(i_word)
-
+        wordcount[i_word]=wordlist.count(i_word)
 
     return wordcount
 
