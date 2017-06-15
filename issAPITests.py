@@ -1,13 +1,13 @@
-import unittest
+import unittest,requests
 
-from issAPI import iss_info
+
+from issAPI import Iss_API
 
 class issAPITests(unittest.TestCase):
+    pass
 
-    def test_fail_with_params(self):
-        pass
 
-    def test_returns_dictionary(self):
-        e_value = dict()
-        r_value =iss_info()
+
+
+
 
